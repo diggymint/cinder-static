@@ -1,0 +1,108 @@
+/* color references
+
+*/
+
+body {
+    margin-top: 50px;
+
+    background: url("../img/");
+}
+
+a:hover {
+    text-decoration: none;
+    color: #C2B49A;
+}
+
+
+.navbar-brand {
+    margin: 0;
+    padding: 2px 0;
+}
+
+
+/*hero*/
+
+#hero {
+    background: url("../img/hero-bg.jpg") 25% 50% no-repeat fixed;
+    background-color: #F1F2F9;
+    text-align: right;
+
+}
+
+.hero-text {
+    height: 200px;
+
+}
+
+#home-newinfo {
+    padding: 25px 0 25px 0;
+    background-color: rgba(33, 33, 33, 0.9);
+    color: white;
+    text-align: center;
+
+}
+
+
+/*announcement*/
+
+#announcement {
+    background-color: #C2B49A;
+    text-align: center;
+
+}
+
+
+/*about*/
+
+#about-cinder {
+
+    background: url("../img/cindergarden-icy.jpg") 75% -50px no-repeat;
+    background-color: #E7E2DF;
+    min-height: 550px;
+
+}
+
+.about-text {
+    min-height: 300px;
+}
+
+
+/*footer*/
+
+footer {
+    background: #404041;
+    color: white;
+
+}
+
+footer ul {
+    padding: 15px 0 0;
+}
+
+footer p {
+    margin: 2px 0 0 -15px;
+    left: -100px;
+
+}
+
+footer a:link, footer a:visited {
+    color: white;
+}
+
+footer a:hover {
+    color: #C2B49A;
+}
+
+
+
+@media (max-width: 992px) {
+
+    .hero-bar {
+        background-color: rgba(241, 242, 249, 0.85);
+    }
+
+    .about-bar {
+        background-color: rgba(232, 227, 224, 0.7);
+    }
+
+}
