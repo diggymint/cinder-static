@@ -5,7 +5,7 @@
 $(function () {
     var $window = $(window);
 
-    $('section[data-type="hero-background"]').each(function () {
+    $('section[data-type="background"]').each(function () {
         var $bjobj = $(this);
         $window.scroll(function () {
 

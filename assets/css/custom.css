@@ -5,7 +5,12 @@
 body {
     margin-top: 50px;
 
-    background: url("../img/");
+    background-color: #F1F2F9;
+
+}
+
+a {
+    color: purple;
 }
 
 a:hover {
@@ -17,6 +22,29 @@ a:hover {
 .navbar-brand {
     margin: 0;
     padding: 2px 0;
+}
+
+
+#primary {
+    padding: 40px 0;
+}
+
+.feature-image {
+    display: table;
+    width: 100%;
+    height: 200px;
+}
+
+.feature-image-default-alt {
+    background: url("../img/cinder-news.jpg");
+
+}
+
+.feature-image h1 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
 }
 
 
@@ -95,6 +123,115 @@ footer a:hover {
 
 
 
+/*news*/
+
+.post-image {
+    height: 200px;
+    overflow: hidden;
+    background-color: #F1F2F9;
+}
+
+.post, .widget {
+    position: relative;
+    border: solid 1px #dddddd;
+    background: white;
+    margin: 0 0 40px;
+    border-radius: 4px;
+}
+
+.post header,
+.post .post-excerpt {
+    padding: 20px;
+}
+
+.post header h1,
+.post header h3 {
+    margin: 0 0 15px;
+    padding: 0 0 15px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.post header h1 {
+    font-size: 24px;
+}
+
+.post-details {
+    font-size: 12px;
+
+}
+
+.post-details i.fa {
+    padding-left: 10px;
+}
+
+.post-details i.fa:first-child {
+    padding: 0;
+}
+
+/*widget*/
+
+.widget {
+    padding: 20px;
+}
+
+.widget h4 {
+    margin: 0 0 10px;
+    padding: 0 0 10px;
+    border-bottom: solid 1px #dddddd;
+}
+
+.widget ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.widget ul li {
+    margin:  0 0 5px;
+}
+
+.widget ul li:hover {
+    position: relative;
+    left: 1px;
+}
+
+
+/*comments*/
+
+.post-comments-badge {
+    height: 70px;
+    width:  70px;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    border: none;
+
+}
+
+/*forms*/
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+textarea {
+    color: #666;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 6px 12px;
+}
+
+/*media queries*/
+
 @media (max-width: 992px) {
 
     .hero-bar {
@@ -106,3 +243,6 @@ footer a:hover {
     }
 
 }
+
+
+
